@@ -167,6 +167,58 @@ Screenshots of placement def in magic
 <img width="1920" height="947" alt="ol14 std cells info" src="https://github.com/user-attachments/assets/35904a2a-95af-4a46-aad2-5771bd26b917" />
 
 
+source of the nmos connected to vdd
+
+
+<img width="1920" height="947" alt="source of nmos connected to vdd" src="https://github.com/user-attachments/assets/415b96a5-8c9f-46ee-8f27-ee811a57c50d" />
+
+
+source of nmos connected to gnd
+
+
+<img width="1920" height="947" alt="source of nmos to gnd" src="https://github.com/user-attachments/assets/79f683c8-e275-4443-924f-0de4ce92ff0d" />
+
+to get coordinates of the box 
+
+```bash
+# command to get the coordinates of the box
+box
+```
+### Spice extraction of inverter in magic.
+
+Commands for spice extraction of the custom inverter layout to be used in tkcon window of magic
+
+```tcl
+# Check current directory
+pwd
+
+# Extraction command to extract to .ext format
+extract all
+
+# check this commands also
+ext2spice cthresh 0 rthresh 0
+
+# Converting to ext to spice
+ext2spice
+```
+
+Screenshot of tkcon window after running above commands
+
+<img width="1920" height="947" alt="extract all" src="https://github.com/user-attachments/assets/5151b955-b199-49f4-8715-a8db98f95687" />
+
+<img width="1920" height="947" alt="ext2spice" src="https://github.com/user-attachments/assets/73c6c991-6e2c-4ab6-89ee-56925d46cc97" />
+
+to open ceated spice file
+```
+#command
+vim sky130
+
+
+
+
+
+
+
 
 
 
