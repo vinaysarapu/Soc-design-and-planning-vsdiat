@@ -123,6 +123,9 @@ Screenshots of floorplan def in magic
 
 <img width="1920" height="947" alt="fp cells" src="https://github.com/user-attachments/assets/a20dcf74-e9bb-495f-bd67-dd910649859a" />
 
+<img width="1920" height="947" alt="ports" src="https://github.com/user-attachments/assets/66066fa5-f1df-4ecb-9ea3-abbac696246d" />
+
+
 name of the selected cell in tikikon 
 <img width="1920" height="947" alt="name of cell" src="https://github.com/user-attachments/assets/7361a56f-68ea-4a6d-943f-9c6b828ece5f" />
 
@@ -136,6 +139,43 @@ run_placement
 ```
 
 Screenshots of placement run
+
+<img width="1920" height="947" alt="ol11 plc done" src="https://github.com/user-attachments/assets/0089063c-52f2-4b50-96f1-be1ca357b17b" />
+
+
+####  Load generated placement def in magic tool and explore the placement.
+
+Commands to load placement def in magic 
+
+```bash
+# Change directory to path containing generated placement def
+cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/17-03_12-06/results/placement/
+
+# Command to load the placement def in magic tool
+magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &
+```
+
+Screenshots of placement def in magic
+
+
+<img width="1920" height="947" alt="ol 13 plc magic" src="https://github.com/user-attachments/assets/ce4d2a49-fd8e-4c41-b175-4754b178fdd6" />
+
+
+<img width="1920" height="947" alt="ol13 std clls in mgc" src="https://github.com/user-attachments/assets/11826fc2-d4c6-4fd0-95a1-2c7e12b5a564" />
+
+
+<img width="1920" height="947" alt="ol14 std cells info" src="https://github.com/user-attachments/assets/35904a2a-95af-4a46-aad2-5771bd26b917" />
+
+
+
+
+
+
+
+
+
+
+
 
 
 
