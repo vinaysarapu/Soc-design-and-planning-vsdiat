@@ -63,6 +63,19 @@ Flop\ Ratio = \frac{1613}{14876} = 0.108429
 ```math
 Percentage\ of\ DFF's = 0.094325 * 100 = 10.8429\ \%
 ```
+## Section 2 
+ Run 'picorv32a' design floorplan using OpenLANE flow and generate necessary outputs.
+```bash
+# Change directory to openlane flow directory
+cd Desktop/work/tools/openlane_working_dir/openlane
+```
+```tcl
+# Now that the design is prepped and ready, we can run synthesis using following command
+run_synthesis
+
+# Now we can run floorplan
+run_floorplan
+```
 
 
 
