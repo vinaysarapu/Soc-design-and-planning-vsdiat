@@ -46,7 +46,25 @@ run_synthesis
 exit
 ```
 screenshots of command run
-<img width="1920" height="947" alt="ol 1" src="https://github.com/user-attachments/assets/b0c5b808-aceb-43c7-a9a6-f9a92022fdbb" />
+<img width="1920" height="947" alt="ol2" src="https://github.com/user-attachments/assets/97193d76-cd68-4112-aceb-81c89dc8a8c8" />
+<img width="1920" height="947" alt="ol3" src="https://github.com/user-attachments/assets/ad36ff6c-5369-4465-bd04-157e5c19732e" />
+####  Calculate the flop ratio.
+Screenshots of synthesis  with required values highlighted
+<img width="1920" height="947" alt="ol4" src="https://github.com/user-attachments/assets/6c30bf97-741d-4c55-b360-2fd96ec09dc8" />
+<img width="1920" height="947" alt="ol5" src="https://github.com/user-attachments/assets/5fa40d6e-aea9-4aa8-a8ca-36c6b6caf556" />
+
+Calculation of Flop Ratio and DFF % from synthesis statistics report file
+
+Calculation of Flop Ratio and DFF % from synthesis statistics report file
+
+```math
+Flop\ Ratio = \frac{1634}{17323} = 0.094325
+```
+```math
+Percentage\ of\ DFF's = 0.094325 * 100 = 9.4325\ \%
+```
+
+
 
 
 
