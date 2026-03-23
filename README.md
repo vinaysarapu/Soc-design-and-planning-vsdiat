@@ -74,6 +74,40 @@ cd Desktop/work/tools/openlane_working_dir/openlane
 # Now we can run floorplan
 run_floorplan
 ```
+Screenshot of floorplan run
+<img width="1920" height="947" alt="ol6" src="https://github.com/user-attachments/assets/4436f214-c07e-4a99-b5ee-0d755b3e966a" />
+<img width="1920" height="947" alt="ol7" src="https://github.com/user-attachments/assets/83fdeace-a38c-494c-9c47-15e6430ad104" />
+
+####  Calculate the die area in microns from the values in floorplan def.
+
+Screenshot of contents of floorplan def
+<img width="1920" height="947" alt="ol9" src="https://github.com/user-attachments/assets/a022269c-27bb-4ab1-912c-0fd046c1088c" />
+
+According to floorplan def
+```math
+1000\ Unit\ Distance = 1\ Micron
+```
+```math
+Die\ width\ in\ unit\ distance = 660685 - 0 = 660685
+```
+```math
+Die\ height\ in\ unit\ distance = 671405 - 0 = 671405
+```
+```math
+Distance\ in\ microns = \frac{Value\ in\ Unit\ Distance}{1000}
+```
+```math
+Die\ width\ in\ microns = \frac{660685}{1000} = 660.685\ Microns
+```
+```math
+Die\ height\ in\ microns = \frac{671405}{1000} = 671.405\ Microns
+```
+```math
+Area\ of\ die\ in\ microns = 660.685 * 671.405 = 443587.212425\ Square\ Microns
+
+
+
+
 
 
 
