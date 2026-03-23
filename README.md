@@ -70,9 +70,7 @@ Percentage\ of\ DFF's = 0.094325 * 100 = 10.8429\ \%
 cd Desktop/work/tools/openlane_working_dir/openlane
 ```
 ```tcl
-# Now that the design is prepped and ready, we can run synthesis using following command
-run_synthesis
-
+#since synthesis is already completed 
 # Now we can run floorplan
 run_floorplan
 ```
