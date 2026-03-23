@@ -104,6 +104,7 @@ Die\ height\ in\ microns = \frac{671405}{1000} = 671.405\ Microns
 ```
 ```math
 Area\ of\ die\ in\ microns = 660.685 * 671.405 = 443587.212425\ Square\ Microns
+```
 
 ####  Load generated floorplan def in magic tool and explore the floorplan.
 
