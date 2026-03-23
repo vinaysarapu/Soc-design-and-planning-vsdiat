@@ -105,6 +105,29 @@ Die\ height\ in\ microns = \frac{671405}{1000} = 671.405\ Microns
 ```math
 Area\ of\ die\ in\ microns = 660.685 * 671.405 = 443587.212425\ Square\ Microns
 
+####  Load generated floorplan def in magic tool and explore the floorplan.
+
+Commands to load floorplan def in magic in another terminal
+
+```bash
+# Change directory to path containing generated floorplan def
+cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/17-03_12-06/results/floorplan/
+
+# Command to load the floorplan def in magic tool
+magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &
+```
+Screenshots of floorplan def in magic
+
+<img width="1920" height="947" alt="floorplan" src="https://github.com/user-attachments/assets/a0b7c211-de79-4bbb-bcec-379ab61c2614" />
+
+<img width="1920" height="947" alt="fp cells" src="https://github.com/user-attachments/assets/a20dcf74-e9bb-495f-bd67-dd910649859a" />
+
+name of the selected cell in tikikon 
+<img width="1920" height="947" alt="name of cell" src="https://github.com/user-attachments/assets/7361a56f-68ea-4a6d-943f-9c6b828ece5f" />
+
+
+
+
 
 
 
