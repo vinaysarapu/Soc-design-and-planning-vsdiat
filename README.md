@@ -126,6 +126,18 @@ Screenshots of floorplan def in magic
 name of the selected cell in tikikon 
 <img width="1920" height="947" alt="name of cell" src="https://github.com/user-attachments/assets/7361a56f-68ea-4a6d-943f-9c6b828ece5f" />
 
+####  Run 'picorv32a' design congestion aware placement using OpenLANE flow and generate necessary outputs.
+
+Command to run placement
+
+```tcl
+# Congestion aware placement by default
+run_placement
+```
+
+Screenshots of placement run
+
+
 
 
 
