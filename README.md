@@ -1,8 +1,20 @@
 # Soc-design-and-planning-vsdiat
+## overview
+# VSDIAT Physical Design Workshop
 
+This repository documents my hands-on learning and implementation of the VSDIAT Physical Design workshop using OpenLane.
 
-<img width="1920" height="947" alt="inv command" src="https://github.com/user-attachments/assets/88889efd-3d3e-4df0-9893-99605d7a725d" />
+## 📌 Objective
+To understand the complete RTL-to-GDSII flow including:
+- Floorplanning
+- Placement
+- Clock Tree Synthesis (CTS)
+- Routing
+- Timing Analysis
 
-afunhfaeiujefa
-acjkacef
-<img width="1920" height="1080" alt="fp core and die ratio" src="https://github.com/user-attachments/assets/306f8ea0-62fb-4623-97e7-7c7f6a6f3ef9" />
+## 🛠️ Tools Used
+- OpenLane
+- Sky130 PDK
+- Docker
+
+Section 1 tasks:-
