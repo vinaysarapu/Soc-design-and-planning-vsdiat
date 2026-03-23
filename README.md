@@ -17,4 +17,4 @@ To understand the complete RTL-to-GDSII flow including:
 - Sky130 PDK
 - Docker
 
-Section 1 tasks:-
+## Section 1 
