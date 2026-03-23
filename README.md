@@ -44,8 +44,11 @@ run_synthesis
 
 # Exit from OpenLANE flow
 exit
+
+
 Screenshots of running each commands
 <img width="1920" height="947" alt="ol 1" src="https://github.com/user-attachments/assets/eaee2589-e9e5-49cb-ac98-bba037ae93a2" />
+
 
 
 
